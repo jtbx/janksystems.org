@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ if eq .Kind "term" }}
+  {{ $tag := lower .Title }}
+  <p>Browsing #<a href="/tags/{{ $tag }}">{{ $tag }}</a></p>
+{{ end }}
+{{ range .Pages.ByPublishDate.Reverse }}
+  {{- partial "listentry.html" . }}
+{{ end }}
+{{ end }}

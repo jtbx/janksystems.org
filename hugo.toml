@@ -1,0 +1,4 @@
+baseURL = "/"
+locale = "en-nz"
+title = "Jank Systems Ltd."
+theme = "thinkbox"

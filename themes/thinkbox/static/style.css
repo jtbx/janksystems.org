@@ -1,0 +1,85 @@
+@import url("/fonts/redaction/font.css");
+@import url("/fonts/roboto-mono/font.css");
+
+:root {
+  --accent: #ff5555;
+  --bg: #242424;
+  --alt-bg: #2f2f2f;
+  --text: #f6f3e8;
+  --subtitle: #e2dfd5;
+
+  padding-left: 30%;
+  min-width: 400px;
+  max-width: 40%;
+  font-family: Redaction, serif;
+  font-size: large;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+code {
+  font-family: Roboto Mono, monospace;
+  font-size: small;
+}
+
+header {
+  padding-top: 8px;
+  margin-bottom: 16px;}
+
+header nav * {
+  font-size: x-large;
+  text-decoration: none;
+}
+
+header nav a.heading {
+  background-color: var(--accent);
+  color: var(--text);
+}
+
+header nav a.heading:hover {
+  background-color: var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+div.main > h2 {
+  color: var(--accent);
+}
+
+div.post-list-entry {
+  border-radius: 4px;
+  padding-top: 1%;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  margin-bottom: 16px;
+  max-width: 80%;
+}
+
+div.post-list-entry > a {
+  font-size: large;
+  font-weight: bold;
+}
+
+div.post-list-entry > a:hover {
+  font-size: large;
+  font-weight: bold;
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+div.post-list-entry h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.post-list-entry-meta {
+  font-size: medium;
+}

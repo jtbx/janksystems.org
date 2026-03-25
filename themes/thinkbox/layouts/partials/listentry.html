@@ -1,0 +1,20 @@
+<div class="post-list-entry">
+  {{ if eq .Kind "term" }}
+    #
+  {{ end }}
+  <a href="{{ .RelPermalink }}">
+    {{ if eq .Kind "term" }}
+      {{ lower .Title }}
+    {{ else }}
+      {{ .Title }}
+    {{ end }}
+  </a>
+  <div class="post-list-entry-meta">
+    {{ if .PublishDate }}
+      {{ time.Format "January 2, 2006" .PublishDate }}
+    {{ end }}
+    {{ if .Params.Tags }}
+      {{ partial "tags.html" . -}}
+    {{ end }}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h2>{{ .Title }}</h2>
+<p>
+  {{ if .PublishDate }}
+    {{ time.Format "January 2, 2006" .PublishDate }}
+  {{ end }}
+  {{ if .Params.Tags }}
+    {{ partial "tags.html" . -}}
+  {{ end }}
+</p><hr>
+<div class="content">{{ .Content }}</div>
+{{ end }}

@@ -1,0 +1,6 @@
+# Hugo
+public/
+
+# Emacs
+*~
+*.~undo-tree~
