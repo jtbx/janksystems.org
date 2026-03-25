@@ -9,4 +9,6 @@ Hi! This is the personal site of Jeremy Baxter.
 This is a place for me to write about software I make, and
 perhaps the occasional opinion. Thanks for popping round!
 
-*~Jeremy*
+*&mdash;Jeremy*
+
+[Contact me](/images/contact.png)
