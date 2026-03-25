@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<title>records: browse your music collection over the net - Jank Systems Ltd.</title>
+</head>
+  <body>
+    <header><nav>
+  <a class="heading" href="/">Jank Systems Ltd.</a><br>
+  <a href="/posts">posts</a>&nbsp;&nbsp;
+  <a href="/tags/software">software</a>&nbsp;&nbsp;
+  <a href="https://git.baxters.nz/">git</a>&nbsp;
+</nav>
+</header>
+    <div class="main">
+      
+<h2>records: browse your music collection over the net</h2>
+<p>
+  
+    March 24, 2026
+  
+  
+    
+  #<a href="/tags/software">software</a>
+
+
+</p><hr>
+<div class="content"><p>Hi! This is the first post of my personal blog, where I&rsquo;ll document any
+thoughts, findings, or projects of mine.</p>
+<p><code>records</code> is a program I made to index any albums in your collection,
+and provide access to them from the internet. It will sort through a
+directory, with a hierarchy like this:</p>
+<pre tabindex="0"><code>root-|
+     |- artist
+     |  \_ album
+     |     |- cover.jpg
+     |     \_ song.flac
+     \_ artist ...
+</code></pre><p>So song metadata is completely ignored and albums are indexed by your
+directory structure. They can then be displayed in a variety of ways
+on the web interface, including a grid of every album&rsquo;s cover, a list
+of albums from an artist, or a list of all albums. Albums can also be
+sorted by name or by the amount of songs, so you can find your longest
+albums.</p>
+<p>The program also maintains a cache of .tar.gz archives for your
+albums! On every album&rsquo;s page, there is a link to its archive, so that
+your albums can be easily distributed and extracted to your various
+devices.</p>
+<p><img src="/images/20260324-records.png" alt="Screenshot of records"></p>
+<h2 id="install-it-on-your-hardware">Install it on your hardware</h2>
+<p>The source code repository can be found at
+<a href="https://git.janksystems.org/jeremy/records">https://git.janksystems.org/jeremy/records</a>. Instructions on how to compile
+and install the program are provided. You will need a copy of the Go
+toolchain installed.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This being my first real project in Go, I had a lot of fun finding out
+about server-side web apps and how they can work incredibly well using
+plain HTML. Definitely going to do more of this in the future!</p>
+</div>
+
+    </div>
+    <footer>
+      <hr>&copy; Copyright 2026 Jeremy Baxter.
+</footer>
+  </body>
+</html>
