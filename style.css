@@ -8,13 +8,13 @@
   --text: #f6f3e8;
   --subtitle: #e2dfd5;
 
-  padding-left: 30%;
-  min-width: 400px;
-  max-width: 40%;
   font-family: Redaction, serif;
   font-size: large;
   background-color: var(--bg);
   color: var(--text);
+
+  width: 700px;
+  margin: auto;
 }
 
 code {
