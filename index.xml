@@ -6,7 +6,14 @@
     <description>Recent content in Index on Jank Systems Ltd.</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 14:00:00 +1300</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>records: browse your music collection over the net</title>
+      <link>/posts/20260331-records/</link>
+      <pubDate>Tue, 31 Mar 2026 14:00:00 +1300</pubDate>
+      <guid>/posts/20260331-records/</guid>
+      <description>&lt;p&gt;Hi! This is the first post of my personal blog, where I&amp;rsquo;ll document any&#xA;thoughts, findings, or projects of mine.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;records&lt;/code&gt; is a program I made to index albums in your collection,&#xA;and provide access to them over the internet. It has a clean, minimal&#xA;web UI, free from JavaScript and heavy web frameworks.&lt;/p&gt;&#xA;&lt;p&gt;It sorts through a directory, and expects a hierarchy like this:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;root-|&#xA;     |- artist&#xA;     |  \_ album&#xA;     |     |- cover.jpg&#xA;     |     \_ song.flac&#xA;     \_ artist ...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;So song metadata is completely ignored and albums are indexed by your&#xA;directory structure. They can then be displayed in a variety of ways&#xA;on the web interface, including a grid of albums, a list of albums&#xA;from a certain artist, or a list of all albums. There is also the&#xA;option to sort by name or by song count.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

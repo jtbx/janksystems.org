@@ -2,13 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/</loc>
+    <lastmod>2026-03-31T14:00:00+13:00</lastmod>
+  </url><url>
+    <loc>/posts/20260331-records/</loc>
+    <lastmod>2026-03-31T14:00:00+13:00</lastmod>
+  </url><url>
+    <loc>/tags/software/</loc>
+    <lastmod>2026-03-31T14:00:00+13:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-03-31T14:00:00+13:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2026-03-24T18:00:00+13:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-  </url><url>
-    <loc>/posts/</loc>
-  </url><url>
-    <loc>/tags/</loc>
   </url>
 </urlset>
