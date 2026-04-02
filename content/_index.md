@@ -13,7 +13,7 @@ perhaps the occasional opinion. Thanks for popping round!
 
 [Contact me](/images/contact.png)
 
-### Other posts I like (more coming soon)
+### Posts I like
 
 - [Rebasing in Git - Jake Wiesler](https://www.jakewiesler.com/blog/rebasing-in-git)
 - [Upgrading a Thinkpad x270 - codeinu.it](https://codeinu.it/blog/lenovo-x270)
