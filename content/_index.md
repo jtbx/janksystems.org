@@ -17,3 +17,4 @@ perhaps the occasional opinion. Thanks for popping round!
 
 - [Rebasing in Git - Jake Wiesler](https://www.jakewiesler.com/blog/rebasing-in-git)
 - [Upgrading a Thinkpad x270 - codeinu.it](https://codeinu.it/blog/lenovo-x270)
+- [Lots of Small Spreadsheets - howardism.org](https://www.howardism.org/Technical/Emacs/spreadsheet.html)
