@@ -19,3 +19,5 @@ perhaps the occasional opinion. Thanks for popping round!
 - [Upgrading a Thinkpad x270 - codeinu.it](https://codeinu.it/blog/lenovo-x270)
 - [Lots of Small Spreadsheets - howardism.org](https://www.howardism.org/Technical/Emacs/spreadsheet.html)
   - [Org as a spreadsheet system - orgmode.org](https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html)
+- [Blockchain Blasphemy and the Technological Antichrist - Luke Smith](https://lukesmith.xyz/articles/blockchain-blasphemy)
+- [Creating a Simple Encrypted Matrix Bot in Go - Dominik Chrástecký](https://chrastecky.dev/programming/creating-a-simple-encrypted-matrix-bot-in-go)
